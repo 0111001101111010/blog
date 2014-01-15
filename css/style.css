@@ -485,74 +485,74 @@ article .entry-content video.right {
   filter: none;
 }
 #sub-nav .social a.facebook {
-  background: url("/hexo/images/social/facebook.png") center no-repeat #3b5998;
+  background: url("/images/social/facebook.png") center no-repeat #3b5998;
   border: 1px solid #3b5998;
 }
 #sub-nav .social a.facebook:hover {
   border: 1px solid #355089;
 }
 #sub-nav .social a.google {
-  background: url("/hexo/images/social/google.png") center no-repeat #c83d20;
+  background: url("/images/social/google.png") center no-repeat #c83d20;
   border: 1px solid #c83d20;
 }
 #sub-nav .social a.google:hover {
   border: 1px solid #b4371d;
 }
 #sub-nav .social a.twitter {
-  background: url("/hexo/images/social/twitter.png") center no-repeat #55cff8;
+  background: url("/images/social/twitter.png") center no-repeat #55cff8;
   border: 1px solid #55cff8;
 }
 #sub-nav .social a.twitter:hover {
   border: 1px solid #35c6f7;
 }
 #sub-nav .social a.github {
-  background: url("/hexo/images/social/github.png") center no-repeat #afb6ca;
+  background: url("/images/social/github.png") center no-repeat #afb6ca;
   border: 1px solid #afb6ca;
 }
 #sub-nav .social a.github:hover {
   border: 1px solid #98a1bb;
 }
 #sub-nav .social a.coderwall {
-  background: url("/hexo/images/social/coderwall.png") center no-repeat #3e8dcc;
+  background: url("/images/social/coderwall.png") center no-repeat #3e8dcc;
   border: 1px solid #3e8dcc;
 }
 #sub-nav .social a.coderwall:hover {
   border: 1px solid #3280bd;
 }
 #sub-nav .social a.stackoverflow {
-  background: url("/hexo/images/social/stackoverflow.png") center no-repeat #ef7522;
+  background: url("/images/social/stackoverflow.png") center no-repeat #ef7522;
   border: 1px solid #ef7522;
 }
 #sub-nav .social a.stackoverflow:hover {
   border: 1px solid #cc7a00;
 }
 #sub-nav .social a.linkedin {
-  background: url("/hexo/images/social/linkedin.png") center no-repeat #005a87;
+  background: url("/images/social/linkedin.png") center no-repeat #005a87;
   border: 1px solid #005a87;
 }
 #sub-nav .social a.pinterest {
-  background: url("/hexo/images/social/pinterest.png") center no-repeat #be4037;
+  background: url("/images/social/pinterest.png") center no-repeat #be4037;
   border: 1px solid #be4037;
 }
 #sub-nav .social a.pinterest:hover {
   border: 1px solid #ab3a31;
 }
 #sub-nav .social a.delicious {
-  background: url("/hexo/images/social/delicious.png") center no-repeat #3271cb;
+  background: url("/images/social/delicious.png") center no-repeat #3271cb;
   border: 1px solid #3271cb;
 }
 #sub-nav .social a.delicious:hover {
   border: 1px solid #2d66b7;
 }
 #sub-nav .social a.pinboard {
-  background: url("/hexo/images/social/pinboard.png") center no-repeat #0066c8;
+  background: url("/images/social/pinboard.png") center no-repeat #0066c8;
   border: 1px solid #3a729f;
 }
 #sub-nav .social a.pinboard:hover {
   border: 1px solid #005ce6;
 }
 #sub-nav .social a.rss {
-  background: url("/hexo/images/social/rss.png") center no-repeat #ef7522;
+  background: url("/images/social/rss.png") center no-repeat #ef7522;
   border: 1px solid #ef7522;
 }
 #sub-nav .social a.rss:hover {
