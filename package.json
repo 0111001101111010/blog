@@ -1,60 +1,8 @@
 {
   "name": "hexo",
-  "version": "2.4.5",
-  "description": "A fast, simple & powerful blog framework, powered by Node.js.",
-  "preferGlobal": true,
-  "bin": {
-    "hexo": "./bin/hexo"
-  },
-  "scripts": {
-    "test": "node test"
-  },
-  "directories": {
-    "lib": "./lib",
-    "bin": "./bin"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tommy351/hexo.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tommy351/hexo/issues"
-  },
-  "homepage": "http://zespia.tw/hexo/",
-  "keywords": [
-    "website",
-    "blog",
-    "cms",
-    "framework",
-    "hexo"
-  ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
-  },
+  "version": "2.4.2",
+  "private": true,
   "dependencies": {
-    "async": "0.2.9",
-    "express": "3.4.7",
-    "ejs": "0.8.5",
-    "stylus": "0.42.0",
-    "nib": "1.0.2",
-    "marked": "0.3.0",
-    "moment": "2.5.0",
-    "colors": "0.6.2",
-    "highlight.js": "8.0.0",
-    "yamljs": "0.1.4",
-    "lodash": "2.4.1",
-    "swig": "1.2.2",
-    "graceful-fs": "2.0.1",
-    "optimist": "0.6.0",
-    "warehouse": "0.1.12",
-    "sprintf-js": "0.0.7",
-    "chokidar": "0.8.1"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "cheerio": "*"
+    "hexo-generator-cname": "~0.1.1"
   }
 }

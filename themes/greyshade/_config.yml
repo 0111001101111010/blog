@@ -1,0 +1,39 @@
+menu:
+  Home: /
+  Archives: archives
+  page:
+    About: 
+  #  Projects: 
+  #  Resume:  
+#I like all things open source and quick to adapt to new environments and domains. I organize locally for many groups including CodeforAmerica Brigade. I always try to find ways to horizontally and vertically fill my life with code. Three favorite things are hack-a-thons, civic hacking, and startups. 
+
+
+excerpt_link: Continue →
+
+mathjax: true
+fancybox: true
+
+email:
+  profile_pic: http://s.gravatar.com/avatar/5385799bf0b5e55498c1df108d056fe8?s=160
+
+social:
+  twitter: true
+  github: true
+  rss: false
+  linkedin: true
+
+twitter:
+  username: stanzheng
+
+github:
+  username: stanzheng
+
+linkedin:
+  username: stanzh
+
+addit:
+  facebook: false
+  twitter: true
+  gplus: true
+  pinit: false
+  publid:
