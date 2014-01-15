@@ -120,21 +120,20 @@
 
 	</div>
         <h1 class="title" itemprop="name">Android Tips and Tricks</h1>
-      	<div class="entry-content" itemprop="articleBody"><ul>
-<li>Build from commandline an android project (replace ‘Hello with name of Project’)</li>
-</ul>
+      	<div class="entry-content" itemprop="articleBody"><p>Build from commandline an android project (replace ‘Hello with name of Project’)</p>
 <figure class="highlight lang-[shell]"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre><span class="comment">android</span> <span class="comment">update</span> <span class="comment">project</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">name</span> <span class="comment">Hello</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">path</span>
 </pre></td></tr></table></figure>
 
-<ul>
-<li>Activity Life Cycle</li>
-</ul>
 <p>Diagram </p>
 <ul>
 <li>Intent Life Cycle</li>
 <li>Services Life Cycle </li>
+<li>Activity Life Cycle</li>
 </ul>
+<p>Always Check the manifest for all related infomration</p>
+<h2 id="-2f-2f-run_the_app-2c-_replace_the_latter_with_the_activity_you_want_to_invoke">//run the app, replace the latter with the activity you want to invoke</h2>
+<p>adb shell am start -n com.google.zxing.client.android/.CaptureActivity</p>
 </div>
 
 
