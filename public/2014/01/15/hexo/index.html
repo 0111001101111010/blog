@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Android Tips and Tricks | Stanely Zheng&#39;s Blog</title>
+  <title>Debugging Hexo | Stanely Zheng&#39;s Blog</title>
   <meta name="author" content="Stanley Zheng">
   
   <meta name="description" content="This blog&#39;s 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Android Tips and Tricks"/>
+  <meta property="og:title" content="Debugging Hexo"/>
   <meta property="og:site_name" content="Stanely Zheng&#39;s Blog"/>
 
   
@@ -105,11 +105,11 @@
           
 <div class="date">
 
-<time datetime="2014-01-14T21:34:36.000Z"
+<time datetime="2014-01-15T06:07:22.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  Jan 14 2014
+  Jan 15 2014
 </time>
 
 
@@ -119,21 +119,15 @@
 </div>
 
 	</div>
-        <h1 class="title" itemprop="name">Android Tips and Tricks</h1>
-      	<div class="entry-content" itemprop="articleBody"><p>Build from commandline an android project (replace ‘Hello with name of Project’)</p>
-<figure class="highlight lang-[shell]"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="comment">android</span> <span class="comment">update</span> <span class="comment">project</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">name</span> <span class="comment">Hello</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">path</span>
-</pre></td></tr></table></figure>
-
-<p>Diagram </p>
+        <h1 class="title" itemprop="name">Debugging Hexo</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>Here is a quick reference to debugging hexo:</p>
 <ul>
-<li>Intent Life Cycle</li>
-<li>Services Life Cycle </li>
-<li>Activity Life Cycle</li>
+<li>huge stack error - check if all your configs are not null</li>
+<li>missing resources error - I had to edit my *.styl files to have some of the css and assets located correctly</li>
+<li>hexo server deploy wrong fork - I had a huge issue with having it push to the right fork. deleting didn’t work and destoying didn’t either</li>
+<li>hacking on hexo and saving it in the same directory is probably not a good idea, the project is still being updated currently</li>
+<li>use the HEXO-CNAME-GENERATOR package plugin to handle some of the errors with creating CNAME</li>
 </ul>
-<p>Always Check the manifest for all related infomration</p>
-<h2 id="-2f-2f-run_the_app-2c-_replace_the_latter_with_the_activity_you_want_to_invoke">//run the app, replace the latter with the activity you want to invoke</h2>
-<p>adb shell am start -n com.google.zxing.client.android/.CaptureActivity</p>
 </div>
 
 
