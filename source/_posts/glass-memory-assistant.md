@@ -3,6 +3,12 @@ date: 2014-01-16 00:37:28
 tags: ODU CS410 School
 ---
 
+Sound familiar?
+
+http://www.hpl.hp.com/techreports/2001/HPL-2001-145.pdf
+
+From a study in 2001 in leveraging personal mobile tech and using natural language recognition operation.
+
 Select one of the current solutions linked above, and read the related information provided on the website.
 
 Prepare a one-page document, summarizing the following:

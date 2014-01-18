@@ -12,6 +12,8 @@ TCP Connection requires (IP and PORT)
 
 APP - HTTP uses TCP -> HTTP is stateless 
 Trans - TCP 
-Network
+Network -
 Link - Datalink
-Physical 
+Physical  -hardware 
+
+Using telnet 
