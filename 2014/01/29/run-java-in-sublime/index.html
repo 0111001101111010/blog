@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>php notes | Stanely Zheng&#39;s Blog</title>
+  <title>Run Java in Sublime | Stanely Zheng&#39;s Blog</title>
   <meta name="author" content="Stanley Zheng">
   
   <meta name="description" content="This blog&#39;s 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="php notes"/>
+  <meta property="og:title" content="Run Java in Sublime"/>
   <meta property="og:site_name" content="Stanely Zheng&#39;s Blog"/>
 
   
@@ -105,11 +105,11 @@
           
 <div class="date">
 
-<time datetime="2014-01-21T14:41:40.000Z"
+<time datetime="2014-01-30T03:09:25.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  Jan 21 2014
+  Jan 29 2014
 </time>
 
 
@@ -119,17 +119,26 @@
 </div>
 
 	</div>
-        <h1 class="title" itemprop="name">php notes</h1>
-      	<div class="entry-content" itemprop="articleBody"><h2 id="Get_">Get </h2>
-<p>   movies…/?favmovies=Stripes<br><em>exposed urls 
-</em>no sensitive information<br><em>gets in the URL 
-</em>_GET *pulls from URL</p>
-<h2 id="Post_">Post </h2>
-<p> movie ..<br>$favmovies = stripes.</p>
-<p>urlencode</p>
-<h2 id="Sessions_-_Create_a_temporary_set_of_variables_">Sessions - Create a temporary set of variables </h2>
-<p>session_start() </p>
-<p>SQL </p>
+        <h1 class="title" itemprop="name">Run Java in Sublime</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>This is for mac on sublime.</p>
+<p>It makes it a bit easier to build and run java everytime you compile. Speeds up from moving to terminal each time. </p>
+<p><strong><em>using sublime or text editor is sometimes unmanagable for java but the anti-eclipse club is strong…</em></strong></p>
+<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="comment">//Build and run java, works on OSX 10.9 Mavericks and Sublime and up</span>
+{
+	<span class="string">"cmd"</span>: [<span class="string">"javac \"$file_name\" && java \"$file_base_name\""</span>],
+  	<span class="string">"shell"</span>: <span class="keyword">true</span>,
+  	<span class="string">"file_regex"</span>: <span class="string">"^(...*?):([0-9]*):?([0-9]*)"</span>,
+  	<span class="string">"selector"</span>: <span class="string">"source.java"</span>
+}
+</pre></td></tr></table></figure>
+
 </div>
 
 
