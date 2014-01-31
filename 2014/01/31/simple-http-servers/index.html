@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Page 2 | Archives: 2014/1 | Stanely Zheng&#39;s Blog</title>
+  <title>Share Your Website and Files Locally: Simple Http Servers | Stanely Zheng&#39;s Blog</title>
   <meta name="author" content="Stanley Zheng">
   
   <meta name="description" content="This blog&#39;s 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="Share Your Website and Files Locally: Simple Http Servers"/>
   <meta property="og:site_name" content="Stanely Zheng&#39;s Blog"/>
 
   
@@ -99,194 +99,93 @@
       </div><!-- left-col -->
       <div class="mid-col">
         <div class="mid-col-container">
-	    <div id="content" class="inner">
-
-
-<div itemscope itemtype="http://schema.org/Blog">
+	    <div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   
-    
-    
-    <section class="archives"><h1 class="year">2014</h1>
-    
-    
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="meta">
+	<div class="meta">
           
-<span class="date">
+<div class="date">
 
-<time datetime="2014-01-14T21:34:36.000Z"
+<time datetime="2014-01-31T16:38:12.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  Jan 14
+  Jan 31 2014
 </time>
 
 
 
 
 
-</span>
-
-          <br>
-          
-
- 
- <span class="tags">
-   <a href="/tags/android developer/">android developer</a>
- </span>
-
-
-          
-        </div>
-        <h1 class="title" itemprop="name">
-          <a href="/2014/01/14/android-tips-and-tricks/">Android Tips and Tricks</a>
-        </h1>
-    </article>
-    
-  
-    
-    
-    
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="meta">
-          
-<span class="date">
-
-<time datetime="2014-01-14T16:05:17.000Z"
-      
-      data-updated="true"
-       itemprop="datePublished">
-  Jan 14
-</time>
-
-
-
-
-
-</span>
-
-          <br>
-          
-
- 
- <span class="tags">
-   <a href="/tags/school/">school</a>
- </span>
-
-
-          
-        </div>
-        <h1 class="title" itemprop="name">
-          <a href="/2014/01/14/semester-spring-2014-/">Semester Spring 2014</a>
-        </h1>
-    </article>
-    
-  
-    
-    
-    
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="meta">
-          
-<span class="date">
-
-<time datetime="2014-01-11T21:08:49.000Z"
-      
-      data-updated="true"
-       itemprop="datePublished">
-  Jan 11
-</time>
-
-
-
-
-
-</span>
-
-          <br>
-          
-
-
-          
-        </div>
-        <h1 class="title" itemprop="name">
-          <a href="/2014/01/11/living-with-glass/">Living with glass</a>
-        </h1>
-    </article>
-    
-  
-    
-    
-    
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="meta">
-          
-<span class="date">
-
-<time datetime="2014-01-10T14:40:28.000Z"
-      
-      data-updated="true"
-       itemprop="datePublished">
-  Jan 10
-</time>
-
-
-
-
-
-</span>
-
-          <br>
-          
-
- 
- <span class="tags">
-   <a href="/tags/start/">start</a>
- </span>
-
-
-          
-        </div>
-        <h1 class="title" itemprop="name">
-          <a href="/2014/01/10/First-Post/">First Post</a>
-        </h1>
-    </article>
-    
-  
-    
-    
-    
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="meta">
-          
-<span class="date">
-
-<time datetime="2014-01-06T09:02:34.000Z"
-      
-      data-updated="true"
-       itemprop="datePublished">
-  Jan 06
-</time>
-
-
-
-
-
-</span>
-
-          <br>
-          
-
-
-          
-        </div>
-        <h1 class="title" itemprop="name">
-          <a href="/2014/01/06/hello-world/">Hello World</a>
-        </h1>
-    </article>
-    
-  
 </div>
+
+	</div>
+        <h1 class="title" itemprop="name">Share Your Website and Files Locally: Simple Http Servers</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>Sometimes you need to serve a directory to a group in a small room. </p>
+<figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre>
+npm install http-server -g
+http-server 
+<span class="comment">//another port</span>
+<span class="comment">//http-server -p 9080</span>
+</pre></td></tr></table></figure>
+
+<figure class="highlight lang-python"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>
+python -m SimpleHTTPServer
+<span class="comment">#specify port number via python -m SimpleHTTPServer 8080</span>
+</pre></td></tr></table></figure>
+
+<figure class="highlight lang-php"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="comment">//stick something on your /var/www bin and profit.</span>
+</pre></td></tr></table></figure>
+
+<p>Want to share some files? use wget or curl<br>in this case the <a href="http://wesite.com/directory" target="_blank">http://wesite.com/directory</a> is your localhost</p>
+<p>a specific file</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>curl -<span class="class">O</span> <span class="method">http:</span>//<span class="method">localhost:</span>port/<span class="class">FILE</span>.<span class="class">TXT</span>
+curl -<span class="class">O</span> <span class="method">http:</span>//<span class="method">localhost:</span>port/<span class="class">PIC</span>.<span class="class">PNG</span>
+</pre></td></tr></table></figure>
+
+<p>Always works for me, included no parent and recursive to only get the desired directory.</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre> <span class="comment">wget</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">no</span><span class="literal">-</span><span class="comment">parent</span> <span class="literal">-</span><span class="comment">r</span>  <span class="comment">http://localhost:port/DIRECTORY</span>
+</pre></td></tr></table></figure>
+
+</div>
+
+
+</article>
+
+
+  <div class="share">
+  <div class="addthis_toolbox addthis_default_style ">
+  
+  
+  <a class="addthis_button_tweet"></a>
+  
+  
+  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+  
+  
+  </div>
+  <script type="text/javascript">
+    var addthis_config = {"data_track_addressbar":true};
+  </script>
+  <script type="text/javascript"
+          src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=null">
+  </script>
+</div>
+
+
+
+
 </div>
 	</div>
 
