@@ -12,6 +12,13 @@ npm install http-server -g
 http-server 
 //another port
 //http-server -p 9080 
+
+```
+want to run it forever in production? Run it forever
+``` shell
+ forever start ../node_modules/http-server/bin/http-server
+ #path the last argument to http-server and path it to where you want 
+
 ```
 
 Using Python 
@@ -22,8 +29,11 @@ python -m SimpleHTTPServer
 #specify port number via python -m SimpleHTTPServer 8080
 ```
 Using Php
-``` php
-//stick something on your /var/www bin and profit. 
+``` shell
+
+php -S 8080
+# works for php 5.4 and up, php has its own package 
+#or stick something on your /var/www bin and profit. 
 
 ```
 
