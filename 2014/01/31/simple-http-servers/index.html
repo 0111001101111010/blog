@@ -121,7 +121,7 @@
 	</div>
         <h1 class="title" itemprop="name">Share Your Website and Files Locally: Simple Http Servers</h1>
       	<div class="entry-content" itemprop="articleBody"><p>Sometimes you need to serve a directory to a group in a small room. </p>
-<p>Using Node </p>
+<p>Using Node</p>
 <figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
 2
 3
@@ -134,6 +134,13 @@ http-server
 <span class="comment">//http-server -p 9080</span>
 </pre></td></tr></table></figure>
 
+<p>want to run it forever in production? Run it forever</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre> forever start <span class="built_in">..</span><span class="subst">/</span>node_modules<span class="subst">/</span>http<span class="attribute">-server</span><span class="subst">/</span>bin<span class="subst">/</span>http<span class="attribute">-server</span>
+ <span class="variable">#path</span> the last argument <span class="keyword">to</span> http<span class="attribute">-server</span> <span class="literal">and</span> path it <span class="keyword">to</span> <span class="keyword">where</span> you want
+</pre></td></tr></table></figure>
+
 <p>Using Python </p>
 <figure class="highlight lang-python"><table><tr><td class="gutter"><pre>1
 2
@@ -144,8 +151,14 @@ python -m SimpleHTTPServer
 </pre></td></tr></table></figure>
 
 <p>Using Php</p>
-<figure class="highlight lang-php"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="comment">//stick something on your /var/www bin and profit.</span>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre>
+php -S <span class="number">8080</span>
+# works <span class="keyword">for</span> php <span class="number">5.4</span> and up, php has its own <span class="package"><span class="keyword">package</span> 
+#<span class="title">or</span> <span class="title">stick</span> <span class="title">something</span> <span class="title">on</span> <span class="title">your</span> /<span class="title">var</span>/<span class="title">www</span> <span class="title">bin</span> <span class="title">and</span> <span class="title">profit</span>.</span>
 </pre></td></tr></table></figure>
 
 <p>Want to share some files? use wget or curl<br>Localhost is your website. </p>
