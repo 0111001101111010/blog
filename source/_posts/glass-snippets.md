@@ -17,3 +17,11 @@ public void onCreate(Bundle savedInstanceState) {
 //can be removed with 
 getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 ```
+
+Start the camera intent
+``` android
+startActivity();
+
+
+
+```

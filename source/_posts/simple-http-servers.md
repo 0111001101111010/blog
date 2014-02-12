@@ -1,23 +1,23 @@
 title: Share Your Website and Files Locally: Simple Http Servers
 date: 2014-01-31 11:38:12
-tags: 
+tags:
 ---
 
 Sometimes you need to serve a directory to a group in a small room. 
 
-Using Node 
+Using Node
 ``` javascript
 
 npm install http-server -g
 http-server 
 //another port
-//http-server -p 9080 
+//http-server -p 9080
 
 ```
 want to run it forever in production? Run it forever
 ``` shell
  forever start ../node_modules/http-server/bin/http-server
- #path the last argument to http-server and path it to where you want 
+ #path the last argument to http-server and path it to where you want
 
 ```
 
