@@ -22,6 +22,31 @@ Start the camera intent
 ``` android
 startActivity();
 
+		//camera pic taking
+Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE, null);
+startActivityForResult(cameraIntent, 1);
 
+```
+
+keep the  camera unscrambled
+ http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release
+
+``` android
+parameters.setPreviewFpsRange(30000, 30000);
+/*
+    Camera.Parameters params = camera.getParameters();
+    params.setPreviewFpsRange(30000, 30000);
+    camera.setParameters(params);
+*/
+
+```
+
+open url
+```android
+		//url opening
+		String url = "https://mobile.xtuple.com";
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.setData(Uri.parse(url));
+		startActivity(intent);
 
 ```
