@@ -10,6 +10,14 @@ android update project --name Hello --path
 ```
 
 
+Run an application from adb
+```android 
+
+#example running setting
+
+adb shell am start -a android.intent.action.Main -n com.android.settings/.Settings
+```
+
 Diagram 
 + Intent Life Cycle
 + Services Life Cycle 
