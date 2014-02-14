@@ -125,6 +125,17 @@
 </pre></td><td class="code"><pre><span class="comment">android</span> <span class="comment">update</span> <span class="comment">project</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">name</span> <span class="comment">Hello</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">path</span>
 </pre></td></tr></table></figure>
 
+<p>Run an application from adb</p>
+<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre>
+<span class="preprocessor">#example running setting</span>
+
+adb shell am start -a android<span class="preprocessor">.intent</span><span class="preprocessor">.action</span><span class="preprocessor">.Main</span> -n <span class="keyword">com</span><span class="preprocessor">.android</span><span class="preprocessor">.settings</span>/<span class="preprocessor">.Settings</span>
+</pre></td></tr></table></figure>
+
 <p>Diagram </p>
 <ul>
 <li>Intent Life Cycle</li>

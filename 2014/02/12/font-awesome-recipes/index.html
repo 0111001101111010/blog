@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>glass-snippets | Stanely Zheng&#39;s Blog</title>
+  <title>font awesome recipes | Stanely Zheng&#39;s Blog</title>
   <meta name="author" content="Stanley Zheng">
   
   <meta name="description" content="This blog&#39;s 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="glass-snippets"/>
+  <meta property="og:title" content="font awesome recipes"/>
   <meta property="og:site_name" content="Stanely Zheng&#39;s Blog"/>
 
   
@@ -105,11 +105,11 @@
           
 <div class="date">
 
-<time datetime="2014-02-11T21:27:03.000Z"
+<time datetime="2014-02-13T04:51:49.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  Feb 11 2014
+  Feb 12 2014
 </time>
 
 
@@ -119,67 +119,26 @@
 </div>
 
 	</div>
-        <h1 class="title" itemprop="name">glass-snippets</h1>
-      	<div class="entry-content" itemprop="articleBody"><p>Add flag to keep the screen on, </p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+        <h1 class="title" itemprop="name">font awesome recipes</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>Checkmark</p>
+<figure class="highlight lang-html"><table><tr><td class="gutter"><pre>1
 2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="code"><pre><span class="keyword">public</span> <span class="keyword">void</span> onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flag);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-}
+</pre></td><td class="code"><pre>
 
-
-<span class="comment">//can be removed with </span>
-getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 </pre></td></tr></table></figure>
 
-<p>Start the camera intent</p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
+<p>Error </p>
+<figure class="highlight lang-html"><table><tr><td class="gutter"><pre>1
 2
-3
-4
-5
-</pre></td><td class="code"><pre>startActivity()<span class="comment">;</span>
+</pre></td><td class="code"><pre>
 
-		//camera pic taking
-Intent cameraIntent = new Intent(MediaStore<span class="preprocessor">.ACTION</span>_IMAGE_CAPTURE, null)<span class="comment">;</span>
-startActivityForResult(cameraIntent, <span class="number">1</span>)<span class="comment">;</span>
 </pre></td></tr></table></figure>
 
-<p>keep the  camera unscrambled<br> <a href="http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release" target="_blank">http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release</a></p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
+<p>Questionable</p>
+<figure class="highlight lang-html"><table><tr><td class="gutter"><pre>1
 2
-3
-4
-5
-6
-</pre></td><td class="code"><pre>parameters.<span class="keyword">set</span>PreviewFpsRange(<span class="number">30000</span>, <span class="number">30000</span>);
-/*
-    Camera.Parameters params = camera.getParameters();
-    params.<span class="keyword">set</span>PreviewFpsRange(<span class="number">30000</span>, <span class="number">30000</span>);
-    camera.<span class="keyword">set</span>Parameters(params);
-*/
-</pre></td></tr></table></figure>
+</pre></td><td class="code"><pre>
 
-<p>open url</p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-</pre></td><td class="code"><pre>//url opening
-String url = <span class="string">"https://mobile.xtuple.com"</span><span class="comment">;</span>
-Intent intent = new Intent(Intent<span class="preprocessor">.ACTION</span>_VIEW)<span class="comment">;</span>
-intent<span class="preprocessor">.setData</span>(Uri<span class="preprocessor">.parse</span>(url))<span class="comment">;</span>
-startActivity(intent)<span class="comment">;</span>
 </pre></td></tr></table></figure>
 
 </div>
