@@ -145,10 +145,10 @@
 adb shell am start -a android<span class="preprocessor">.intent</span><span class="preprocessor">.action</span><span class="preprocessor">.Main</span> -n <span class="keyword">com</span><span class="preprocessor">.android</span><span class="preprocessor">.settings</span>/<span class="preprocessor">.Settings</span>
 </pre></td></tr></table></figure>
 
-<p>Diagram </p>
+<p>Diagram</p>
 <ul>
 <li>Intent Life Cycle</li>
-<li>Services Life Cycle </li>
+<li>Services Life Cycle</li>
 <li>Activity Life Cycle</li>
 </ul>
 <p>Always Check the manifest for all related infomration</p>
@@ -162,11 +162,24 @@ adb shell am start -a android<span class="preprocessor">.intent</span><span clas
 4
 </pre></td><td class="code"><pre>
 jar <span class="attribute">-xf</span> YOURJAR<span class="built_in">.</span>jar <span class="subst">&&</span> find <span class="built_in">.</span> <span class="attribute">-iname</span> <span class="string">"*.class"</span> <span class="subst">|</span> xargs <span class="built_in">.</span><span class="subst">/</span>jad <span class="attribute">-r</span>
-<span class="variable">#cd</span> <span class="keyword">into</span> the directory <span class="literal">and</span> 
+<span class="variable">#cd</span> <span class="keyword">into</span> the directory <span class="literal">and</span>
 mv <span class="subst">*</span><span class="built_in">.</span>jad <span class="subst">*</span><span class="built_in">.</span>java
 </pre></td></tr></table></figure>
 
 <p>Check out <a href="http://stackoverflow.com/questions/5107187/extract-source-code-from-jar-file/5107213#5107213" target="_blank">http://stackoverflow.com/questions/5107187/extract-source-code-from-jar-file/5107213#5107213</a></p>
+<p>Having Camera Issues? Check Android manifest to make sure permissions are enabled</p>
+<figure class="highlight lang-xml"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+</pre></td><td class="code"><pre>    <span class="tag">&lt;<span class="title">uses-permission</span> <span class="attribute">android:name</span>=<span class="value">"android.permission.CAMERA"</span> /&gt;</span>
+
+    <span class="tag">&lt;<span class="title">uses-feature</span> <span class="attribute">android:name</span>=<span class="value">"android.hardware.camera"</span> /&gt;</span>
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" /&gt;
+</pre></td></tr></table></figure>
+
 </div>
 
 
