@@ -5,8 +5,11 @@ tags: html
 
 
 Checkmark
-``` html
-
+```html
+<span class="fa-stack fa-lg">
+  <i style="color:green" class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+</span>
 
 ```
 
