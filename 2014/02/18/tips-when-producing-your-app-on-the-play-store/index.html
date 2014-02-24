@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Android and Java Cheat Sheet | Stanely Zheng&#39;s Blog</title>
+  <title>Tips when producing your app on the play store | Stanely Zheng&#39;s Blog</title>
   <meta name="author" content="Stanley Zheng">
   
   <meta name="description" content="This blog&#39;s 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Android and Java Cheat Sheet"/>
+  <meta property="og:title" content="Tips when producing your app on the play store"/>
   <meta property="og:site_name" content="Stanely Zheng&#39;s Blog"/>
 
   
@@ -105,11 +105,11 @@
           
 <div class="date">
 
-<time datetime="2014-01-14T21:34:36.000Z"
+<time datetime="2014-02-18T14:27:03.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  Jan 14 2014
+  Feb 18 2014
 </time>
 
 
@@ -119,54 +119,14 @@
 </div>
 
 	</div>
-        <h1 class="title" itemprop="name">Android and Java Cheat Sheet</h1>
+        <h1 class="title" itemprop="name">Tips when producing your app on the play store</h1>
       	<div class="entry-content" itemprop="articleBody"><ul>
-<li>Components of android<ul>
-<li>Activities -email client</li>
-<li>Services -music player</li>
-<li>Content Providers - Note taking app or contacts</li>
-<li>Broadcast Receiver -The intent deliverer</li>
+<li>Make sure you set the price avaliable in all  countries</li>
+<li>Don’t lose your APK signing key, you’ll regret it</li>
+<li>Name your file system appropriately, otherwise it’d be tough to unname.</li>
+<li>Set up a proper name and email account to answer customer queries.</li>
+<li>Set up a support email and twitter acount for people to tell you if so<br>methings wrong</li>
 </ul>
-</li>
-</ul>
-<p>Build from commandline an android project (replace ‘Hello with name of Project’)</p>
-<figure class="highlight lang-[shell]"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="comment">android</span> <span class="comment">update</span> <span class="comment">project</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">name</span> <span class="comment">Hello</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">path</span>
-</pre></td></tr></table></figure>
-
-<p>Run an application from adb</p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-</pre></td><td class="code"><pre>
-<span class="preprocessor">#example running setting</span>
-
-adb shell am start -a android<span class="preprocessor">.intent</span><span class="preprocessor">.action</span><span class="preprocessor">.Main</span> -n <span class="keyword">com</span><span class="preprocessor">.android</span><span class="preprocessor">.settings</span>/<span class="preprocessor">.Settings</span>
-</pre></td></tr></table></figure>
-
-<p>Diagram </p>
-<ul>
-<li>Intent Life Cycle</li>
-<li>Services Life Cycle </li>
-<li>Activity Life Cycle</li>
-</ul>
-<p>Always Check the manifest for all related infomration</p>
-<h2 id="run_the_app-2c-_replace_the_latter_with_the_activity_you_want_to_invoke">run the app, replace the latter with the activity you want to invoke</h2>
-<p>adb shell am start -n com.google.zxing.client.android/.CaptureActivity</p>
-<h2 id="Jars_are_just_zips">Jars are just zips</h2>
-<p>Use a utility like JD-GUI or Jad to unzip a jar and get the source. Perfect for when you lose the source or when you want to tinker.</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-</pre></td><td class="code"><pre>
-jar <span class="attribute">-xf</span> YOURJAR<span class="built_in">.</span>jar <span class="subst">&&</span> find <span class="built_in">.</span> <span class="attribute">-iname</span> <span class="string">"*.class"</span> <span class="subst">|</span> xargs <span class="built_in">.</span><span class="subst">/</span>jad <span class="attribute">-r</span>
-<span class="variable">#cd</span> <span class="keyword">into</span> the directory <span class="literal">and</span> 
-mv <span class="subst">*</span><span class="built_in">.</span>jad <span class="subst">*</span><span class="built_in">.</span>java
-</pre></td></tr></table></figure>
-
-<p>Check out <a href="http://stackoverflow.com/questions/5107187/extract-source-code-from-jar-file/5107213#5107213" target="_blank">http://stackoverflow.com/questions/5107187/extract-source-code-from-jar-file/5107213#5107213</a></p>
 </div>
 
 

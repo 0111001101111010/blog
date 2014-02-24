@@ -142,44 +142,49 @@ getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 </pre></td></tr></table></figure>
 
 <p>Start the camera intent</p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
 5
-</pre></td><td class="code"><pre>startActivity()<span class="comment">;</span>
+</pre></td><td class="code"><pre>startActivity();
 
-		//camera pic taking
-Intent cameraIntent = new Intent(MediaStore<span class="preprocessor">.ACTION</span>_IMAGE_CAPTURE, null)<span class="comment">;</span>
-startActivityForResult(cameraIntent, <span class="number">1</span>)<span class="comment">;</span>
+		<span class="comment">//camera pic taking</span>
+Intent cameraIntent = <span class="keyword">new</span> Intent(MediaStore.ACTION_IMAGE_CAPTURE, <span class="keyword">null</span>);
+startActivityForResult(cameraIntent, <span class="number">1</span>);
 </pre></td></tr></table></figure>
 
 <p>keep the  camera unscrambled<br> <a href="http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release" target="_blank">http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release</a></p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
 5
 6
-</pre></td><td class="code"><pre>parameters.<span class="keyword">set</span>PreviewFpsRange(<span class="number">30000</span>, <span class="number">30000</span>);
-/*
+</pre></td><td class="code"><pre>parameters.setPreviewFpsRange(<span class="number">30000</span>, <span class="number">30000</span>);
+<span class="comment">/*
     Camera.Parameters params = camera.getParameters();
-    params.<span class="keyword">set</span>PreviewFpsRange(<span class="number">30000</span>, <span class="number">30000</span>);
-    camera.<span class="keyword">set</span>Parameters(params);
-*/
+    params.setPreviewFpsRange(30000, 30000);
+    camera.setParameters(params);
+*/</span>
 </pre></td></tr></table></figure>
 
 <p>open url</p>
-<figure class="highlight lang-android"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
 5
-</pre></td><td class="code"><pre>//url opening
-String url = <span class="string">"https://mobile.xtuple.com"</span><span class="comment">;</span>
-Intent intent = new Intent(Intent<span class="preprocessor">.ACTION</span>_VIEW)<span class="comment">;</span>
-intent<span class="preprocessor">.setData</span>(Uri<span class="preprocessor">.parse</span>(url))<span class="comment">;</span>
-startActivity(intent)<span class="comment">;</span>
+</pre></td><td class="code"><pre><span class="comment">//url opening</span>
+String url = <span class="string">"https://mobile.xtuple.com"</span>;
+Intent intent = <span class="keyword">new</span> Intent(Intent.ACTION_VIEW);
+intent.setData(Uri.parse(url));
+startActivity(intent);
+</pre></td></tr></table></figure>
+
+<p>trying to build to something shell proprerties</p>
+<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>Google Inc.:Glass Development Kit Sneak Peek:<span class="number">15</span>
 </pre></td></tr></table></figure>
 
 </div>
