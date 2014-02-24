@@ -12,7 +12,10 @@ Checkmark
 
 Error
 ```html
-
+<span class="fa-stack fa-lg">
+  <i style="color:#ff0202" class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-times fa-stack-1x fa-inverse"></i>
+</span>
 ```
 
 Questionable
