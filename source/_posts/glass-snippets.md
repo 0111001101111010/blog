@@ -1,6 +1,6 @@
 title: glass-snippets
 date: 2014-02-11 16:27:03
-tags:
+tags: java,android
 ---
 
 Add flag to keep the screen on, 
@@ -19,7 +19,7 @@ getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 ```
 
 Start the camera intent
-``` android
+```java
 startActivity();
 
 		//camera pic taking
@@ -31,7 +31,7 @@ startActivityForResult(cameraIntent, 1);
 keep the  camera unscrambled
  http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release
 
-``` android
+```java
 parameters.setPreviewFpsRange(30000, 30000);
 /*
     Camera.Parameters params = camera.getParameters();
@@ -42,11 +42,16 @@ parameters.setPreviewFpsRange(30000, 30000);
 ```
 
 open url
-```android
+```java
 		//url opening
 		String url = "https://mobile.xtuple.com";
 		Intent intent = new Intent(Intent.ACTION_VIEW);
 		intent.setData(Uri.parse(url));
 		startActivity(intent);
 
+```
+
+trying to build to something shell proprerties
+```java
+Google Inc.:Glass Development Kit Sneak Peek:15
 ```

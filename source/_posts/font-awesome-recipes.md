@@ -10,7 +10,7 @@ Checkmark
 
 ```
 
-Error 
+Error
 ```html
 
 ```
@@ -18,4 +18,29 @@ Error
 Questionable
 ```html
 
+```
+
+Site Navigation buttons
+```html
+<center>
+<div  class="row"></div>
+<a href="a3.html">
+<span style="font-size:50px;" class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-chevron-left fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a href="/">
+<span  style="font-size:50px;" class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a href="a5.html">
+<span  style="font-size:50px;" class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-chevron-right fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</center>
 ```

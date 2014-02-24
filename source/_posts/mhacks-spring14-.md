@@ -1,7 +1,7 @@
 title: MHacks-Spring14
 
 date: 2014-01-17 23:27:54
-tags:
+tags: hackathon, glass
 ---
 
 These are some notes over the night of January 17-19th for Mhacks_III

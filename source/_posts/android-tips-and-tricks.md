@@ -1,13 +1,19 @@
-title: Android and Java Tips and Trick
+title: Android and Java Cheat Sheet
 date: 2014-01-14 16:34:36
-tags: android developer
+tags: android, java
 ---
++   Components of android
+    *   Activities -email client
+    *   Services -music player
+    *   Content Providers - Note taking app or contacts
+    *   Broadcast Receiver -The intent deliverer
 
 Build from commandline an android project (replace 'Hello with name of Project')
 
 ```[shell]
 android update project --name Hello --path
 ```
+
 
 
 Run an application from adb
