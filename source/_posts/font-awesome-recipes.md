@@ -23,7 +23,10 @@ Error
 
 Questionable
 ```html
-
+<span class="fa-stack fa-lg">
+  <i style="color:gray" class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-question fa-stack-1x fa-inverse"></i>
+</span>
 ```
 
 Site Navigation buttons
