@@ -17,16 +17,16 @@ android update project --name Hello --path
 
 
 Run an application from adb
-```android 
+```android
 
 #example running setting
 
 adb shell am start -a android.intent.action.Main -n com.android.settings/.Settings
 ```
 
-Diagram 
+Diagram
 + Intent Life Cycle
-+ Services Life Cycle 
++ Services Life Cycle
 + Activity Life Cycle
 
 Always Check the manifest for all related infomration
@@ -43,7 +43,17 @@ Use a utility like JD-GUI or Jad to unzip a jar and get the source. Perfect for 
 ``` shell
 
 jar -xf YOURJAR.jar && find . -iname "*.class" | xargs ./jad -r
-#cd into the directory and 
+#cd into the directory and
 mv *.jad *.java
 ```
 Check out http://stackoverflow.com/questions/5107187/extract-source-code-from-jar-file/5107213#5107213
+
+
+Having Camera Issues? Check Android manifest to make sure permissions are enabled
+```xml
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+```

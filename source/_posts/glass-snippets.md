@@ -3,7 +3,7 @@ date: 2014-02-11 16:27:03
 tags: java,android
 ---
 
-Add flag to keep the screen on, 
+Add flag to keep the screen on,
 
 
 ```java
@@ -14,7 +14,7 @@ public void onCreate(Bundle savedInstanceState) {
 }
 
 
-//can be removed with 
+//can be removed with
 getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 ```
 
@@ -54,4 +54,17 @@ open url
 trying to build to something shell proprerties
 ```java
 Google Inc.:Glass Development Kit Sneak Peek:15
+```
+
+on keydown, emit something
+```java
+    @Override
+    public boolean onKeyDown(int keycode, KeyEvent event) {
+        if (keycode == KeyEvent.KEYCODE_DPAD_CENTER) {
+            openOptionsMenu();
+            Log.v("@@@@","TEST");
+            return true;
+        }
+        return false;
+    }
 ```
