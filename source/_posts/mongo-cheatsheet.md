@@ -1,0 +1,17 @@
+title: mongo cheatsheet
+date: 2014-02-27 11:29:47
+tags: mongod
+---
+
+
+Print out everything in a json result in mongo
+```javascript
+var myCursor =  db.ships.find();
+
+myCursor.forEach(printjson);
+```
+
+Print out all the results of a single one
+```
+
+```

@@ -8,6 +8,10 @@ tags: android, java
     *   Content Providers - Note taking app or contacts
     *   Broadcast Receiver -The intent deliverer
 
+open website via intent
+```java
+adb shell am start -a android.intent.action.VIEW -d http://www.stackoverflow.com
+```
 Build from commandline an android project (replace 'Hello with name of Project')
 
 ```[shell]
