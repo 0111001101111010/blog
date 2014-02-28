@@ -8,16 +8,29 @@ tags: android, java
     *   Content Providers - Note taking app or contacts
     *   Broadcast Receiver -The intent deliverer
 
-open website via intent
+open and visit website via intent
 ```java
 adb shell am start -a android.intent.action.VIEW -d http://www.stackoverflow.com
 ```
 Build from commandline an android project (replace 'Hello with name of Project')
 
-```[shell]
+```shell
 android update project --name Hello --path
 ```
 
+Use Environment Variables versus a sample or config file
+```shell
+export VARIABLE_NAME="VALUE"
+export MIRROR_DEMO_CLIENT_ID="your app's id"
+export MIRROR_DEMO_CLIENT_SECRET="your app's secret"
+export MIRROR_DEMO_REDIRECT_URL="your redirect url"
+```
+
+in your code
+```javascript
+var oauth2Client = new OAuth2Client(process.env.MIRROR_DEMO_CLIENT_ID,
+    process.env.MIRROR_DEMO_CLIENT_SECRET, process.env.MIRROR_DEMO_REDIRECT_URL);
+```
 
 
 Run an application from adb
