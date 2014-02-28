@@ -46,7 +46,7 @@ Diagram
 + Services Life Cycle
 + Activity Life Cycle
 
-Always Check the manifest for all related infomration
+Always Check the manifest for all related information
 
 run the app, replace the latter with the activity you want to invoke
 ---
