@@ -129,9 +129,42 @@
 </ul>
 </li>
 </ul>
+<p>Logcat filtering without eclipse.</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="comment">adb</span> <span class="comment">logcat</span> <span class="comment">|</span> <span class="comment">grep</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">line</span><span class="literal">-</span><span class="comment">buffered</span> <span class="comment">"mysearch"</span>
+</pre></td></tr></table></figure>
+
+<p>to pipe out to txt file</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="comment">adb</span> <span class="comment">logcat</span> <span class="comment">|</span> <span class="comment">grep</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">line</span><span class="literal">-</span><span class="comment">buffered</span> <span class="comment">"mysearch"</span> &gt; <span class="comment">mylog</span><span class="string">.</span><span class="comment">txt</span>
+</pre></td></tr></table></figure>
+
+<p>open and visit website via intent</p>
+<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>adb shell am start -a android.intent.action.VIEW -d http:<span class="comment">//www.stackoverflow.com</span>
+</pre></td></tr></table></figure>
+
 <p>Build from commandline an android project (replace ‘Hello with name of Project’)</p>
-<figure class="highlight lang-[shell]"><table><tr><td class="gutter"><pre>1
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre><span class="comment">android</span> <span class="comment">update</span> <span class="comment">project</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">name</span> <span class="comment">Hello</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">path</span>
+</pre></td></tr></table></figure>
+
+<p>Use Environment Variables versus a sample or config file</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="keyword">export</span> VARIABLE_NAME=<span class="string">"VALUE"</span>
+<span class="keyword">export</span> MIRROR_DEMO_CLIENT_ID=<span class="string">"your app's id"</span>
+<span class="keyword">export</span> MIRROR_DEMO_CLIENT_SECRET=<span class="string">"your app's secret"</span>
+<span class="keyword">export</span> MIRROR_DEMO_REDIRECT_URL=<span class="string">"your redirect url"</span>
+</pre></td></tr></table></figure>
+
+<p>in your code</p>
+<figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre><span class="keyword">var</span> oauth2Client = <span class="keyword">new</span> OAuth2Client(process.env.MIRROR_DEMO_CLIENT_ID,
+    process.env.MIRROR_DEMO_CLIENT_SECRET, process.env.MIRROR_DEMO_REDIRECT_URL);
 </pre></td></tr></table></figure>
 
 <p>Run an application from adb</p>
@@ -151,7 +184,7 @@ adb shell am start -a android<span class="preprocessor">.intent</span><span clas
 <li>Services Life Cycle</li>
 <li>Activity Life Cycle</li>
 </ul>
-<p>Always Check the manifest for all related infomration</p>
+<p>Always Check the manifest for all related information</p>
 <h2 id="run_the_app-2c-_replace_the_latter_with_the_activity_you_want_to_invoke">run the app, replace the latter with the activity you want to invoke</h2>
 <p>adb shell am start -n com.google.zxing.client.android/.CaptureActivity</p>
 <h2 id="Jars_are_just_zips">Jars are just zips</h2>
