@@ -8,6 +8,18 @@ tags: android, java
     *   Content Providers - Note taking app or contacts
     *   Broadcast Receiver -The intent deliverer
 
+Logcat filtering without eclipse.
+```shell
+adb logcat | grep --line-buffered "mysearch"
+```
+
+to pipe out to txt file
+```shell
+adb logcat | grep --line-buffered "mysearch" > mylog.txt
+
+```
+
+
 open and visit website via intent
 ```java
 adb shell am start -a android.intent.action.VIEW -d http://www.stackoverflow.com
