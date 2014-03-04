@@ -68,3 +68,13 @@ on keydown, emit something
         return false;
     }
 ```
+
+Insert a card into the timeline via gdk
+```java
+
+		mTimelineManager = TimelineManager.from(this);
+		Card card = new Card(this);
+		card.setText("Hello World").setFootnote("Footer").addImage(R.drawable.ic_launcher);
+		mTimelineManager.insert(card);
+
+```
