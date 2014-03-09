@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>glass-snippets | Stanely Zheng&#39;s Blog</title>
+  <title>C++ Standard and Education | Stanely Zheng&#39;s Blog</title>
   <meta name="author" content="Stanley Zheng">
   
   <meta name="description" content="This blog&#39;s 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="glass-snippets"/>
+  <meta property="og:title" content="C++ Standard and Education"/>
   <meta property="og:site_name" content="Stanely Zheng&#39;s Blog"/>
 
   
@@ -105,11 +105,11 @@
           
 <div class="date">
 
-<time datetime="2014-02-11T21:27:03.000Z"
+<time datetime="2014-03-09T00:23:50.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  Feb 11 2014
+  Mar 8 2014
 </time>
 
 
@@ -119,108 +119,29 @@
 </div>
 
 	</div>
-        <h1 class="title" itemprop="name">glass-snippets</h1>
-      	<div class="entry-content" itemprop="articleBody"><p>Add flag to keep the screen on,</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="code"><pre><span class="keyword">public</span> <span class="keyword">void</span> onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_flag);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-}
-
-
-<span class="comment">//can be removed with</span>
-getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        <h1 class="title" itemprop="name">C++ Standard and Education</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>I learned mostly C++99 standards throughout my time at my CS Course program. Actually scratch that, it wasn’t even explained the different in standards. Even from traditional C, or C99, its funny how institutions focus on learning but give only a breadth first generalistic approach to most education</p>
+<p>Compiling with C+11</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="comment">clang</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">std=c</span><span class="literal">+</span><span class="literal">+</span><span class="comment">11</span> <span class="literal">-</span><span class="comment">stdlib=libc</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">Weverything</span> <span class="comment">prog6</span><span class="string">.</span><span class="comment">cpp</span> <span class="literal">-</span><span class="comment">o</span> <span class="comment">prog6</span>
 </pre></td></tr></table></figure>
 
-<p>Start the camera intent</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<p>Supressing compile with C+99 errors</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
 2
 3
-4
-5
-</pre></td><td class="code"><pre>startActivity();
-
-		<span class="comment">//camera pic taking</span>
-Intent cameraIntent = <span class="keyword">new</span> Intent(MediaStore.ACTION_IMAGE_CAPTURE, <span class="keyword">null</span>);
-startActivityForResult(cameraIntent, <span class="number">1</span>);
-</pre></td></tr></table></figure>
-
-<p>keep the  camera unscrambled<br> <a href="http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release" target="_blank">http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release</a></p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-</pre></td><td class="code"><pre>parameters.setPreviewFpsRange(<span class="number">30000</span>, <span class="number">30000</span>);
-<span class="comment">/*
-    Camera.Parameters params = camera.getParameters();
-    params.setPreviewFpsRange(30000, 30000);
-    camera.setParameters(params);
-*/</span>
-</pre></td></tr></table></figure>
-
-<p>open url</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-</pre></td><td class="code"><pre><span class="comment">//url opening</span>
-String url = <span class="string">"https://mobile.xtuple.com"</span>;
-Intent intent = <span class="keyword">new</span> Intent(Intent.ACTION_VIEW);
-intent.setData(Uri.parse(url));
-startActivity(intent);
-</pre></td></tr></table></figure>
-
-<p>trying to build to something shell proprerties</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>Google Inc.:Glass Development Kit Sneak Peek:<span class="number">15</span>
-</pre></td></tr></table></figure>
-
-<p>on keydown, emit something</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="code"><pre>    <span class="annotation">@Override</span>
-    <span class="keyword">public</span> <span class="keyword">boolean</span> onKeyDown(<span class="keyword">int</span> keycode, KeyEvent event) {
-        <span class="keyword">if</span> (keycode == KeyEvent.KEYCODE_DPAD_CENTER) {
-            openOptionsMenu();
-            Log.v(<span class="string">"@@@@"</span>,<span class="string">"TEST"</span>);
-            <span class="keyword">return</span> <span class="keyword">true</span>;
-        }
-        <span class="keyword">return</span> <span class="keyword">false</span>;
-    }
-</pre></td></tr></table></figure>
-
-<p>Insert a card into the timeline via gdk</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
 </pre></td><td class="code"><pre>
-		mTimelineManager = TimelineManager.from(<span class="keyword">this</span>);
-		Card card = <span class="keyword">new</span> Card(<span class="keyword">this</span>);
-		card.setText(<span class="string">"Hello World"</span>).setFootnote(<span class="string">"Footer"</span>).addImage(R.drawable.ic_launcher);
-		mTimelineManager.insert(card);
+<span class="comment">```shell</span>
+<span class="comment">clang</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">std=c</span><span class="literal">+</span><span class="literal">+</span><span class="comment">11</span> <span class="literal">-</span><span class="comment">stdlib=libc</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">w</span> <span class="literal">-</span><span class="comment">Weverything</span> <span class="comment">prog6</span><span class="string">.</span><span class="comment">cpp</span> <span class="literal">-</span><span class="comment">o</span> <span class="comment">prog6</span>
 </pre></td></tr></table></figure>
 
+<p>ignore C++99</p>
+<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="comment">clang</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">w</span> <span class="literal">-</span><span class="comment">std=c</span><span class="literal">+</span><span class="literal">+</span><span class="comment">11</span> <span class="literal">-</span><span class="comment">stdlib=libc</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">w</span> <span class="literal">-</span><span class="comment">Weverything</span> <span class="comment">prog6</span><span class="string">.</span><span class="comment">cpp</span> <span class="literal">-</span><span class="comment">o</span> <span class="comment">prog6</span>
+</pre></td></tr></table></figure>
+
+<p>See this gist for more info on how to integrate into sublime text 2/3 for your build system file.</p>
+<script src="https://gist.github.com/stanzheng/9441259.js"></script>
 </div>
 
 
