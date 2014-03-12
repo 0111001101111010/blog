@@ -19,3 +19,10 @@ var myCursor =  db.norfolk.find({name:"Ynot Pizza"});
 
 myCursor.forEach(printjson);
 ```
+
+Regex Fuzzy Field Search
+```
+
+var myCursor =  db.norfolk.find({"name": /pizza/})
+myCursor.forEach(printjson);
+```
