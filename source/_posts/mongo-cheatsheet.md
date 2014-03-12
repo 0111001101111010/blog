@@ -12,6 +12,10 @@ myCursor.forEach(printjson);
 ```
 
 Print out all the results of a single one
-```
 
+Multi Query
+```
+var myCursor =  db.norfolk.find({name:"Ynot Pizza"});
+
+myCursor.forEach(printjson);
 ```
