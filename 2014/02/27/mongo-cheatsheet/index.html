@@ -130,10 +130,22 @@ myCursor.forEach(printjson);
 </pre></td></tr></table></figure>
 
 <p>Print out all the results of a single one</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
+<p>Multi Query</p>
+<figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
 2
-</pre></td><td class="code"><pre>
+3
+</pre></td><td class="code"><pre><span class="keyword">var</span> myCursor =  db.norfolk.find({name:<span class="string">"Ynot Pizza"</span>});
 
+myCursor.forEach(printjson);
+</pre></td></tr></table></figure>
+
+<p>Regex Fuzzy Field Search</p>
+<figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>
+<span class="keyword">var</span> myCursor =  db.norfolk.find({<span class="string">"name"</span>: <span class="regexp">/pizza/</span>})
+myCursor.forEach(printjson);
 </pre></td></tr></table></figure>
 
 </div>
