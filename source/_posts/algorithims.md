@@ -3,7 +3,7 @@ date: 2014-03-13 21:43:07
 tags:
 ---
 
-spelliling algorithms correct is important
+spelling algorithms correct is important
 
 peaks
 
@@ -20,3 +20,15 @@ peaks
    2  3
   /\  /\
  4  5 6 7
+-AVL trees
+   - traverse = n
+   - insert nlog(n)
+   - delete min
+   - find next min and max and next smaller and next min  
+   - log(n),
+
+Comparison Model
+   -Searching: (lng)
+   -Sorting nln(n)
+   -All input items are blackboxes
+In reality
