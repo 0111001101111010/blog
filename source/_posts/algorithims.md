@@ -34,3 +34,7 @@ Comparison Model
 In reality
 
 Linear time sorting for not large - O(n sqrt(lnln(n))
+-Prehashing = alpha = n/m
+time, orderone = theta(1+alpha)
+(a*k)mod(2^w) >> 2^(r-w) where m = 2^r
+also k mod m - hash the function and modulus
