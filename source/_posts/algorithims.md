@@ -38,3 +38,9 @@ Linear time sorting for not large - O(n sqrt(lnln(n))
 time, orderone = theta(1+alpha)
 (a*k)mod(2^w) >> 2^(r-w) where m = 2^r
 also k mod m - hash the function and modulus
+
+Hash table properties
+- make use of all info provided by key  (Key:Value)
+- uniformly distrutes output across table  
+- maps similar keys to very different hash values  
+- uses only very fast operations to minimize run time.
