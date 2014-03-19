@@ -4,6 +4,15 @@ tags: interview
 ---
 
 
+Algorithms
+- O(time)
+- Perform two sortings. O(nLog(n)) QuickSort & Merge Sort maybe familiar yourself with others - Tree Traversals - in, post, pre - order, breadth/level and depth
+- tree structures, binary, tri-nary, heap trees, AVL
+- Graph problems... Dijkstras, A, common n = np problems. Know Edges and Vertices
+- Did i say n = np problems... N = NP Problems.
+
+General Review and Tutorials
+- http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index
 
 Videos
 - Open Source CourseWare MIT http://www.youtube.com/user/MIT
@@ -11,10 +20,12 @@ Videos
 
 
 Google Recruiter Suggested Tips
+---
+These emails are scattered all throughout the web
 - https://gist.github.com/stanzheng/9631465
 - http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index
 
 
 Stackoverflow Questions
 - http://stackoverflow.com/questions/210829/what-is-an-np-complete-problem
--
+- http://stackoverflow.com/questions/111307/whats-p-np-and-why-is-it-such-a-famous-question
