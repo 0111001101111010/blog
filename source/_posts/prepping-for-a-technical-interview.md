@@ -29,3 +29,8 @@ These emails are scattered all throughout the web
 Stackoverflow Questions
 - http://stackoverflow.com/questions/210829/what-is-an-np-complete-problem
 - http://stackoverflow.com/questions/111307/whats-p-np-and-why-is-it-such-a-famous-question
+- Quick vs Merge http://stackoverflow.com/questions/7878768/when-to-use-merge-sort-and-when-to-use-quick-sort
+Notes
+- Use quick if you can but doesn't always guarente nlog(n) and can become O(n^2)
+- Merge sort is best when no Random Access (Stack, Queue, list) of the stucture
+- Heap sort is also in there if quicksort starts degenerates

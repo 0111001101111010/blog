@@ -44,3 +44,10 @@ Hash table properties
 - uniformly distrutes output across table  
 - maps similar keys to very different hash values  
 - uses only very fast operations to minimize run time.
+
+TODO
+- Binary Tree / n-tree / AVL Tree / tr-tree
+   - Their Traversals
+   - Insert/delete/search
+- Make Graph / Search / Edges/Vertices
+- Quick/MergeSort
