@@ -24,13 +24,17 @@ Google Recruiter Suggested Tips
 These emails are scattered all throughout the web
 - https://gist.github.com/stanzheng/9631465
 - http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index
-
+- http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/13-trees.pdf
 
 Stackoverflow Questions
 - http://stackoverflow.com/questions/210829/what-is-an-np-complete-problem
 - http://stackoverflow.com/questions/111307/whats-p-np-and-why-is-it-such-a-famous-question
 - Quick vs Merge http://stackoverflow.com/questions/7878768/when-to-use-merge-sort-and-when-to-use-quick-sort
 - http://stackoverflow.com/questions/4421706/operator-overloading
+
+Links
+- http://cs.stanford.edu/people/eroberts/courses/cs106b/chapters/13-trees.pdf
+
 Notes
 - Use quick if you can but doesn't always guarente nlog(n) and can become O(n^2)
 - Merge sort is best alternative when no Random Access (Stack, Queue, list) of the stucture
