@@ -122,7 +122,7 @@
         <h1 class="title" itemprop="name">git-commit easy</h1>
       	<div class="entry-content" itemprop="articleBody"><p>Git’s easy way to merge conflicts in pull requests</p>
 <p>The suggestful cli prompts to the simplicity of github. </p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -131,10 +131,10 @@
 7
 8
 </pre></td><td class="code"><pre>Step <span class="number">1</span>: From your project repository, check out <span class="operator">a</span> <span class="built_in">new</span> branch <span class="operator">and</span> test <span class="operator">the</span> changes.
-git checkout -b ajspeller-gh-pages gh-pages <span class="comment"># on your branch 
-</span>git pull <span class="keyword">https</span>://github.com/ajspeller/c4hrva-landing.git gh-pages
-<span class="comment">#should get a conflict 
-</span>Step <span class="number">2</span>: Merge <span class="operator">the</span> changes <span class="operator">and</span> update <span class="command"><span class="keyword">on</span> <span class="title">GitHub</span>.</span>
+git checkout -b ajspeller-gh-pages gh-pages <span class="comment"># on your branch </span>
+git pull <span class="keyword">https</span>://github.com/ajspeller/c4hrva-landing.git gh-pages
+<span class="comment">#should get a conflict </span>
+Step <span class="number">2</span>: Merge <span class="operator">the</span> changes <span class="operator">and</span> update <span class="command"><span class="keyword">on</span> <span class="title">GitHub</span>.</span>
 git checkout gh-pages
 git <span class="built_in">merge</span> ajspeller-gh-pages
 git push origin gh-pages

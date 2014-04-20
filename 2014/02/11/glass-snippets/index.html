@@ -121,7 +121,7 @@
 	</div>
         <h1 class="title" itemprop="name">glass-snippets</h1>
       	<div class="entry-content" itemprop="articleBody"><p>Add flag to keep the screen on,</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -130,8 +130,8 @@
 7
 8
 9
-</pre></td><td class="code"><pre><span class="keyword">public</span> <span class="keyword">void</span> onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+</pre></td><td class="code"><pre><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span>(Bundle savedInstanceState) {
+        <span class="keyword">super</span>.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flag);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 }
@@ -142,7 +142,7 @@ getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 </pre></td></tr></table></figure>
 
 <p>Start the camera intent</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -155,7 +155,7 @@ startActivityForResult(cameraIntent, <span class="number">1</span>);
 </pre></td></tr></table></figure>
 
 <p>keep the  camera unscrambled<br> <a href="http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release" target="_blank">http://stackoverflow.com/questions/19235477/google-glass-preview-image-scrambled-with-new-xe10-release</a></p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -170,7 +170,7 @@ startActivityForResult(cameraIntent, <span class="number">1</span>);
 </pre></td></tr></table></figure>
 
 <p>open url</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -183,12 +183,12 @@ startActivity(intent);
 </pre></td></tr></table></figure>
 
 <p>trying to build to something shell proprerties</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre>Google Inc.:Glass Development Kit Sneak Peek:<span class="number">15</span>
 </pre></td></tr></table></figure>
 
 <p>on keydown, emit something</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -198,7 +198,7 @@ startActivity(intent);
 8
 9
 </pre></td><td class="code"><pre>    <span class="annotation">@Override</span>
-    <span class="keyword">public</span> <span class="keyword">boolean</span> onKeyDown(<span class="keyword">int</span> keycode, KeyEvent event) {
+    <span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">onKeyDown</span>(<span class="keyword">int</span> keycode, KeyEvent event) {
         <span class="keyword">if</span> (keycode == KeyEvent.KEYCODE_DPAD_CENTER) {
             openOptionsMenu();
             Log.v(<span class="string">"@@@@"</span>,<span class="string">"TEST"</span>);
@@ -209,7 +209,7 @@ startActivity(intent);
 </pre></td></tr></table></figure>
 
 <p>Insert a card into the timeline via gdk</p>
-<figure class="highlight lang-java"><table><tr><td class="gutter"><pre>1
+<figure class="highlight java"><table><tr><td class="gutter"><pre>1
 2
 3
 4

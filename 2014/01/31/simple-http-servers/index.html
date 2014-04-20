@@ -122,7 +122,7 @@
         <h1 class="title" itemprop="name">Share Your Website and Files Locally: Simple Http Servers</h1>
       	<div class="entry-content" itemprop="articleBody"><p>Sometimes you need to serve a directory to a group in a small room. </p>
 <p>Using Node</p>
-<figure class="highlight lang-javascript"><table><tr><td class="gutter"><pre>1
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -135,14 +135,14 @@ http-server
 </pre></td></tr></table></figure>
 
 <p>want to run it forever in production? Run it forever</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
 2
-</pre></td><td class="code"><pre> forever start <span class="built_in">..</span><span class="subst">/</span>node_modules<span class="subst">/</span>http<span class="attribute">-server</span><span class="subst">/</span>bin<span class="subst">/</span>http<span class="attribute">-server</span>
+</pre></td><td class="code"><pre> forever start <span class="built_in">..</span>/node_modules/http<span class="attribute">-server</span>/bin/http<span class="attribute">-server</span>
  <span class="variable">#path</span> the last argument <span class="keyword">to</span> http<span class="attribute">-server</span> <span class="literal">and</span> path it <span class="keyword">to</span> <span class="keyword">where</span> you want
 </pre></td></tr></table></figure>
 
 <p>Using Python </p>
-<figure class="highlight lang-python"><table><tr><td class="gutter"><pre>1
+<figure class="highlight python"><table><tr><td class="gutter"><pre>1
 2
 3
 </pre></td><td class="code"><pre>
@@ -151,28 +151,28 @@ python -m SimpleHTTPServer
 </pre></td></tr></table></figure>
 
 <p>Using Php</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
 2
 3
 4
 </pre></td><td class="code"><pre>
 php -S <span class="number">8080</span>
-# works <span class="keyword">for</span> php <span class="number">5.4</span> and up, php has its own <span class="package"><span class="keyword">package</span> 
-#<span class="title">or</span> <span class="title">stick</span> <span class="title">something</span> <span class="title">on</span> <span class="title">your</span> /<span class="title">var</span>/<span class="title">www</span> <span class="title">bin</span> <span class="title">and</span> <span class="title">profit</span>.</span>
+# works <span class="keyword">for</span> php <span class="number">5.4</span> <span class="keyword">and</span> up, php <span class="keyword">has</span> its own package 
+#<span class="keyword">or</span> stick something <span class="keyword">on</span> your /<span class="keyword">var</span>/www bin <span class="keyword">and</span> profit.
 </pre></td></tr></table></figure>
 
 <p>Want to share some files? use wget or curl<br>Localhost is your website. </p>
 <p>a specific file</p>
 <p>Using Curl</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
 2
-</pre></td><td class="code"><pre>curl -<span class="class">O</span> <span class="method">http:</span>//<span class="method">localhost:</span>port/<span class="class">FILE</span>.<span class="class">TXT</span>
-curl -<span class="class">O</span> <span class="method">http:</span>//<span class="method">localhost:</span>port/<span class="class">PIC</span>.<span class="class">PNG</span>
+</pre></td><td class="code"><pre>curl <span class="attribute">-O</span> http:<span class="comment">//localhost:port/FILE.TXT</span>
+curl <span class="attribute">-O</span> http:<span class="comment">//localhost:port/PIC.PNG</span>
 </pre></td></tr></table></figure>
 
 <p>Using Wget<br>Always works for me, included no parent and recursive to only get the desired directory.</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre> <span class="comment">wget</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">no</span><span class="literal">-</span><span class="comment">parent</span> <span class="literal">-</span><span class="comment">r</span>  <span class="comment">http://localhost:port/DIRECTORY</span>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre> wget <span class="subst">--</span>no<span class="attribute">-parent</span> <span class="attribute">-r</span>  http:<span class="comment">//localhost:port/DIRECTORY</span>
 </pre></td></tr></table></figure>
 
 </div>

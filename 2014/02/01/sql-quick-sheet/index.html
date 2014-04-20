@@ -122,14 +122,14 @@
         <h1 class="title" itemprop="name">sql-quick-sheet</h1>
       	<div class="entry-content" itemprop="articleBody"><p>CommonSQL for the common developer</p>
 <p>What’s my hostname?</p>
-<figure class="highlight lang-sql"><table><tr><td class="gutter"><pre>1
+<figure class="highlight sql"><table><tr><td class="gutter"><pre>1
 2
 </pre></td><td class="code"><pre><span class="operator"><span class="keyword">select</span> @@hostname;</span>
 <span class="operator"><span class="keyword">show</span> variables <span class="keyword">where</span> Variable_name <span class="keyword">like</span> <span class="string">'%host%'</span>;</span>
 </pre></td></tr></table></figure>
 
 <p>use sql through vagrant as root, login<br>source: <a href="https://coderwall.com/p/yzwqvg" target="_blank">https://coderwall.com/p/yzwqvg</a></p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
 2
 3
 </pre></td><td class="code"><pre>mysql -u root -e "<span class="operator"><span class="keyword">GRANT</span> <span class="keyword">ALL</span> <span class="keyword">PRIVILEGES</span> <span class="keyword">ON</span> *.* <span class="keyword">TO</span> <span class="string">'root'</span>@<span class="string">'%'</span> IDENTIFIED <span class="keyword">BY</span> <span class="string">''</span> <span class="keyword">WITH</span> <span class="keyword">GRANT</span> <span class="keyword">OPTION</span>;</span> FLUSH PRIVILEGES;"
@@ -138,17 +138,17 @@ cat /etc/mysql/my.cnf | grep bind-address
 </pre></td></tr></table></figure>
 
 <p>Pick a database</p>
-<figure class="highlight lang-sql"><table><tr><td class="gutter"><pre>1
+<figure class="highlight sql"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre>use databaseNAME
 </pre></td></tr></table></figure>
 
 <p>AutoComplete for mysql commands</p>
-<figure class="highlight lang-sql"><table><tr><td class="gutter"><pre>1
+<figure class="highlight sql"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre>mysql <span class="comment">--auto-rehash -u root -p</span>
 </pre></td></tr></table></figure>
 
 <p>Create a table </p>
-<figure class="highlight lang-sql"><table><tr><td class="gutter"><pre>1
+<figure class="highlight sql"><table><tr><td class="gutter"><pre>1
 2
 3
 4
@@ -163,7 +163,7 @@ FirstName <span class="keyword">varchar</span>(<span class="number">255</span>),
 </pre></td></tr></table></figure>
 
 <p>insert into table</p>
-<figure class="highlight lang-sql"><table><tr><td class="gutter"><pre>1
+<figure class="highlight sql"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre><span class="operator"><span class="keyword">insert</span> <span class="keyword">into</span> users (ID, FirstName) <span class="keyword">values</span> (<span class="keyword">null</span>, <span class="string">'bob'</span>);</span>
 </pre></td></tr></table></figure>
 

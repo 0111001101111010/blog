@@ -122,8 +122,8 @@
         <h1 class="title" itemprop="name">C++ Standard and Education</h1>
       	<div class="entry-content" itemprop="articleBody"><p>I learned mostly C++99 standards throughout my time at my CS Course program. Actually scratch that, it wasn’t even explained the different in standards. Even from traditional C, or C99, its funny how institutions focus on learning but give only a breadth first generalistic approach to most education</p>
 <p>Compiling with C+11</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="comment">clang</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">std=c</span><span class="literal">+</span><span class="literal">+</span><span class="comment">11</span> <span class="literal">-</span><span class="comment">stdlib=libc</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">Weverything</span> <span class="comment">prog6</span><span class="string">.</span><span class="comment">cpp</span> <span class="literal">-</span><span class="comment">o</span> <span class="comment">prog6</span>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>clang<span class="subst">++</span> <span class="attribute">-std</span><span class="subst">=</span>c<span class="subst">++</span><span class="number">11</span> <span class="attribute">-stdlib</span><span class="subst">=</span>libc<span class="subst">++</span> <span class="attribute">-Weverything</span> prog6<span class="built_in">.</span>cpp <span class="attribute">-o</span> prog6
 </pre></td></tr></table></figure>
 
 <p>Supressing compile with C+99 errors</p>
@@ -136,8 +136,8 @@
 </pre></td></tr></table></figure>
 
 <p>ignore C++99</p>
-<figure class="highlight lang-shell"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="comment">clang</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">w</span> <span class="literal">-</span><span class="comment">std=c</span><span class="literal">+</span><span class="literal">+</span><span class="comment">11</span> <span class="literal">-</span><span class="comment">stdlib=libc</span><span class="literal">+</span><span class="literal">+</span> <span class="literal">-</span><span class="comment">w</span> <span class="literal">-</span><span class="comment">Weverything</span> <span class="comment">prog6</span><span class="string">.</span><span class="comment">cpp</span> <span class="literal">-</span><span class="comment">o</span> <span class="comment">prog6</span>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>clang<span class="subst">++</span> <span class="attribute">-w</span> <span class="attribute">-std</span><span class="subst">=</span>c<span class="subst">++</span><span class="number">11</span> <span class="attribute">-stdlib</span><span class="subst">=</span>libc<span class="subst">++</span> <span class="attribute">-w</span> <span class="attribute">-Weverything</span> prog6<span class="built_in">.</span>cpp <span class="attribute">-o</span> prog6
 </pre></td></tr></table></figure>
 
 <p>See this gist for more info on how to integrate into sublime text 2/3 for your build system file.</p>
