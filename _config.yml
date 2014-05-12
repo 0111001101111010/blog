@@ -5,7 +5,7 @@
 # Site
 title: Stanely Zheng's Blog
 subtitle: Student Developer
-description: This blog's 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia. 
+description: This blog's 90% coding and 10% everything else. I am a software developer and student living in Norfolk Virginia.
 author: Stanley Zheng
 email: szhen002@odu.edu
 language: english
@@ -97,6 +97,7 @@ markdown:
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
-deploy: 
+deploy:
   type: github
   repo: https://github.com/stanzheng/blog.git
+google_analytics: UA-40195172-1
