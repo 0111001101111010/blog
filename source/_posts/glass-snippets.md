@@ -1,6 +1,8 @@
 title: glass-snippets
 date: 2014-02-11 16:27:03
-tags: java,android
+tags:
+- java
+- android
 ---
 
 Add flag to keep the screen on,

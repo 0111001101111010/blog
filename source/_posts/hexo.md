@@ -1,6 +1,6 @@
 title: Debugging Hexo
 date: 2014-01-15 01:07:22
-tags:
+tags: hexo
 ---
 Here is a quick reference to debugging hexo:
 

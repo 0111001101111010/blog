@@ -1,6 +1,6 @@
 title: Tips when producing your app on the play store
 date: 2014-02-18 09:27:03
-tags:
+tags: android
 ---
 
 + Make sure you set the price avaliable in all  countries
@@ -9,4 +9,3 @@ tags:
 + Set up a proper name and email account to answer customer queries.
 + Set up a support email and twitter acount for people to tell you if so
 methings wrong
-

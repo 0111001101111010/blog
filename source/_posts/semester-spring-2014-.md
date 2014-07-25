@@ -1,12 +1,12 @@
 title: Semester Spring 2014
 
 date: 2014-01-14 11:05:17
-tags: [school]
+tags: school
 ---
 
-My schedule for 2014 and into a short commentary about it. 
+My schedule for 2014 and into a short commentary about it.
 
-CS418 - Web Programming 
+CS418 - Web Programming
 -----
 Using Lamp
 
@@ -22,10 +22,9 @@ Biography of each team member
 Project are being pitched by someone
 Course Site
 http://www.cs.odu.edu/~cs410/
-CS411 - Exit exam is the follow up	
+CS411 - Exit exam is the follow up
 
 IT325 WebDesign
 -----
 Blackboard based due at the end of the weekend
 Core competencies: HTML/JS/CSS/PHP
-

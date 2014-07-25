@@ -1,6 +1,6 @@
-title: mongo cheatsheet
+title: Mongo Cheatsheet
 date: 2014-02-27 11:29:47
-tags: mongod
+tags: mongo
 ---
 
 

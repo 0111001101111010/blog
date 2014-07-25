@@ -1,6 +1,6 @@
 title: Share Your Website and Files Locally: Simple Http Servers
 date: 2014-01-31 11:38:12
-tags: dev
+tags: dev 
 ---
 
 Sometimes you need to serve a directory to a group in a small room.
