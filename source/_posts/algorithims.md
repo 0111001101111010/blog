@@ -5,7 +5,7 @@ tags:
 - algorithms
 ---
 
-spelling algorithms correct is important
+spelling algorithms correctly is important
 
 peaks
 

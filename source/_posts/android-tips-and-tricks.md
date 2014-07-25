@@ -1,6 +1,8 @@
 title: Android and Java Cheat Sheet
 date: 2014-01-14 16:34:36
-tags: android, java
+tags:
+- android
+- java
 ---
 +   Components of android
     *   Activities -email client

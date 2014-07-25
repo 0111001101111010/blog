@@ -1,6 +1,6 @@
-title: dashing dashboard
+title: Dashing Dashboard
 date: 2014-02-27 21:54:16
-tags:
+tags: ruby
 ---
 Why we care about visual dashbaords. Be fast and have a pulse
 ===

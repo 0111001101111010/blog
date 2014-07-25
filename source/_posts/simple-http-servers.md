@@ -1,15 +1,15 @@
 title: Share Your Website and Files Locally: Simple Http Servers
 date: 2014-01-31 11:38:12
-tags:
+tags: dev
 ---
 
-Sometimes you need to serve a directory to a group in a small room. 
+Sometimes you need to serve a directory to a group in a small room.
 
 Using Node
 ``` javascript
 
 npm install http-server -g
-http-server 
+http-server
 //another port
 //http-server -p 9080
 
@@ -21,7 +21,7 @@ want to run it forever in production? Run it forever
 
 ```
 
-Using Python 
+Using Python
 
 ``` python
 
@@ -32,14 +32,14 @@ Using Php
 ``` shell
 
 php -S 8080
-# works for php 5.4 and up, php has its own package 
-#or stick something on your /var/www bin and profit. 
+# works for php 5.4 and up, php has its own package
+#or stick something on your /var/www bin and profit.
 
 ```
 
 
 Want to share some files? use wget or curl
-Localhost is your website. 
+Localhost is your website.
 
 a specific file
 
