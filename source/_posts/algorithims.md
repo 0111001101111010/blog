@@ -1,6 +1,8 @@
-title: algorithms
+title: Algorithms
 date: 2014-03-13 21:43:07
 tags:
+- school
+- algorithms
 ---
 
 spelling algorithms correct is important
