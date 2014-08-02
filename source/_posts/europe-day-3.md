@@ -28,7 +28,8 @@ illy italian cafe for some delicious ice cream
 
 4pm
 ---
-Walk around the town
+Baker Street Musuem IE Sherlock Holmes story. Walk around the town this area. Asian tourist flood the place and it would take over 2 hours to get anywhere inside.
+
 
 5pm
 ---
