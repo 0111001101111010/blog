@@ -1,4 +1,4 @@
-title: Euope: Day 2
+title: Europe: Day 2
 date: 2014-07-31 04:55:43
 tags:
 ---
