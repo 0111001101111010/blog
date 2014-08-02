@@ -20,8 +20,40 @@ Heathrow Connector is the cheap version of the Heathrow Express. For 50% the pri
 8AM
 ---
 Get to the station, take a cab. Considered an uber but no cellular service. From station to hotel 15GBP. Not bad.
-Check into hotel and leave luggage. 
+Check into hotel and leave luggage.
 
 9AM.
 ---
 Have the most Amazing breakfast ever
+
+12pm
+---
+Walk Endlessly
+
+3pm
+---
+see the shakespeare globe wow much culture
+
+4pm
+---
+continue wandering, get to the tower of london, walking 6 hours.
+
+5pm
+---
+end up at pickadilly circus, buy some cookies and find a box office to buy some tickets.
+
+6pm
+---
+get some korean foor from a place called Chilli Korea
+
+7pm
+---
+kill time at a weird manga shop and go see Book of Mormon
+
+10pm
+---
+super awesome play, amazing more broadway everywhere please
+
+11pm
+---
+big ben at night.
