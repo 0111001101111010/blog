@@ -67,3 +67,11 @@ Saw the 9 3/4 quarters platforms. another line another dizzing amount of tourist
 3:00
 ---
 Take the train to Thornaby, Train from London connects to Thornaby which is south of New Castle which is closer to where Kelly's family lives.
+
+Took the eastern line which is equipped with wifi but pay per day/week for $5/10. The speeds are terrible overall. Used a mac address randomizer to get a new IP and switched every 15 minutes.
+
+5:50
+---
+Arrived at the Thornaby station. Fun crazy ride until you arrive and your host is not there and you have no wifi/telphones/addressed.
+
+Glad it worked out in the end ...
