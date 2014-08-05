@@ -4,6 +4,10 @@ tags:
 - europe
 ---
 
+Summary
+---
+flew into london from DC and stayed at a capsule hotel.
+
 Day 1
 ====
 This is the start of a small series where I microblog my trip to Europe. I haven't taken a true unplugged break to reflect and slow down. Hopefully this trip will be a way to unwind and unplug and serve as a time of introspection.

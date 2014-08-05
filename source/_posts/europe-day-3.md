@@ -2,6 +2,10 @@ title: Europe: Day 3
 date: 2014-08-02 03:37:02
 tags: europe
 ---
+Summary
+---
+Second day in london, time to do all the things we wanted to do including see guardians of the galadxy
+
 
 7AM
 ---

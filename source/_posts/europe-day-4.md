@@ -2,6 +2,10 @@ title: Europe: Day 4
 date: 2014-08-02 14:22:25
 tags: europe
 ---
+summary
+---
+last day in london and traveling to stockton on tease to lookmai's family
+
 
 7:30am
 ---

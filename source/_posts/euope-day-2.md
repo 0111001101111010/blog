@@ -3,6 +3,10 @@ date: 2014-07-31 04:55:43
 tags:
 ---
 
+Summary
+---
+Couldn't sleep in the hotel, excited to head to the town. Decided to start traveling.
+
 Day 2
 ====
 12am
