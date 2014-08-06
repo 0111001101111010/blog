@@ -14,3 +14,17 @@ BBQ starts
 4PM
 ---
 people filter out
+
+
+6PM
+---
+more people filter in
+
+8PM
+---
+dinner
+
+
+12AM
+---
+end of day
