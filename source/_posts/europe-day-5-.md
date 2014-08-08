@@ -1,7 +1,7 @@
-title: Europe-Day-5
+title: Europe: Day5
 
 date: 2014-08-03 10:05:07
-tags:
+tags: europe
 ---
 
 Summary

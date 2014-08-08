@@ -1,4 +1,4 @@
-title: europe-day-7
+title: Europe: Day 7
 date: 2014-08-05 18:10:05
 tags: europe
 ---

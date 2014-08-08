@@ -1,4 +1,4 @@
-title: Europe Day 6
+title: Europe: Day 6
 
 date: 2014-08-04 08:23:10
 tags: europe
