@@ -24,7 +24,7 @@ shopped on the town
 
 2pm
 ---
-went to the viking musuem
+went to the viking museum
 
 4pm
 ---
